@@ -18,13 +18,13 @@
   body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    /* background-color: #fff; */
   }
   
   /* === Page Container === */
   header, main, footer {
     width: 840px;
     margin: 0 auto;
+    background-color: var(--secondary-color);
   }
   
   /* === Headings === */
@@ -82,29 +82,162 @@
   
   /* === Hero Section === */
   .hero {
-    position: relative;
+    /* position: relative; */
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height:500px;
+     border-radius: 10px;
   }
-  
-   h1 {
+  .hero h1{
+ text-align: center;
+ opacity: 0.8;
+    font-size: 2em;
+      width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  .hero p{
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .team{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .team h2{
+    text-align: center;
+ opacity: 0.8;
+    font-size: 2em;
+    /* padding: 16px; */
+  }
+  .team-members{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 20px;
+
+  }
+  .team-members img{
+    width: 100%;
+    border: 1px solid lightblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  }
+  .team-members figcaption{
+     margin-top: 8px;
+    font-size: 0.9em;
+    color: var(--primary-color);
+  }
+
+  /* Contact Grid */
+  .contact-grid{
+  align-items: center;
+  max-width: 100%;
+  }
+
+/* Contact Form */
+.contact-form form {
+display: flex;
+flex-direction: column;
+}
+
+.contact-form label {
+/* margin-top: 12px; */
+font-weight: bold;
+}
+.radio-group {
+display: flex;
+gap: 16px;
+align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+padding: 10px;
+border: 1px solid var(--secondary-color);
+border-radius: 4px;
+}
+
+.contact-form textarea {
+resize: vertical;
+margin-top: 10px;
+}
+
+.contact-form button {
+margin-top: 20px;
+padding: 10px;
+background-color: var(--primary-color);
+color: white;
+border: none;
+border-radius: 50px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.contact-form button:hover {
+background-color: #b4b0b06c;
+color: #353535;
+}
+
+
+
+/* .newsletter input[type="email"] {
+padding: 10px;
+border: 1px solid var(--secondary-color);
+border-radius: 4px;
+}
+
+.newsletter button {
+padding: 10px;
+background-color: var(--primary-color);
+color: white;
+border: none;
+border-radius: 4px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.newsletter button:hover {
+background-color: #b4b0b06c;
+color: #353535;
+} */
+.map{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.map iframe {
+width: 100%;
+border: none;
+border-radius: 6px;
+}
+
+
+
+   /* h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
-    padding: 16px;
     text-align: center;
-    opacity: 0.8;
+ opacity: 0.8;
     background-color: var(--accent1-color);
     color: #ffffff;
     font-size: 2em;
-  }
+      width: 100%;
+    padding: 16px;
+    
+   
+  } */
   
   /* === Hero Article === */
-  .hero article {
+  /* .hero article {
     position: absolute;
     top: 90px;
     background-color: #b0dce79a;
@@ -114,17 +247,16 @@
     left: 5%;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-  }
+  } */
   
-  .hero article img {
+  /* .hero article img {
     float: right;
     width: 125px;
-    /* margin-left: 12px; */
     border-radius: 8px;
-  }
+  } */
   
   /* === Adventure Section === */
-  .history{
+  /* .history{
     width: 100%;
     text-align: start;
   }
@@ -178,7 +310,7 @@
     margin-top: 8px;
     font-size: 0.9em;
     color: var(--primary-color);
-  }
+  } */
   
   /* === Footer === */
   footer {
@@ -202,4 +334,8 @@
   
   footer .socialmedia img {
     width: 24px;
+  }
+  .wireframe a{
+    color: #D9D9D9;
+    text-decoration: none;
   }
