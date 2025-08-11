@@ -22,17 +22,17 @@
     <img src="images/wwr-logo.png" alt="Rafting Company Logo">
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="trip.html">Trips</a></li>
+        <li><a href="contact.html" style="color:#D81E5B;">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <h1>GET IN TOUCH WITH US</h1>
+    <section class="contact-hero">
+      <h2>GET IN TOUCH WITH US</h2>
       <img src="images/contact-us.jpg" alt="Rafting background">
       <p>Whether you're planning your first rafting adventure or returning for another splash of excitement, we’d love to hear from you!</p>
     </section>
@@ -46,18 +46,19 @@
       </div>
     </section>
 
-    <div class="contact-grid">
+    <div class="contact-grid" id="contact-grid">
       <section class="contact-form">
         <form >
         <fieldset class="group">
         <legend>Send Us a Message</legend>
-        
           <label for="name">Full Name:</label>
           <input type="text" id="name" name="name" required>
 
           <label for="email">Email Address:</label>
           <input type="email" id="email" name="email" required>
+          
           </fieldset>
+        </section>
           <section class="contact-form-purpose">
 
       <!-- The legend breaks the top border; sides and bottom stay joined -->
@@ -101,20 +102,8 @@
       </fieldset>
           </section>
         </form>
-        </section>
-
-      <div class="newsletter-map">
-        <!-- Optional newsletter section (commented out properly)
-        <section class="newsletter">
-          <h2>Subscribe to Our Newsletter</h2>
-          <form>
-            <label for="newsletter-email">Email Address:</label>
-            <input type="email" id="newsletter-email" name="newsletter-email" required>
-            <button type="submit">Subscribe</button>
-          </form>
-        </section>
-        -->
-
+        <!-- </section> -->
+    </div>
         <section class="map">
           <h2>Our Location</h2>
           <p>📍 J67F+25C, Ajilosun Street, Ado Ekiti, Ekiti-State Nigeria.</p>
@@ -123,8 +112,6 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4439.642993127574!2d5.2215482278791905!3d7.613216405213789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1047facd8a5f9f59%3A0xe6afb959d126c07f!2sLittle%20By%20Little%20Plaza!5e0!3m2!1sen!2sng!4v1754617465992!5m2!1sen!2sng"
             width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-      </div>
-    </div>
   </main>
 
   <footer>
