@@ -331,7 +331,7 @@
     width: 100%;
     height:auto;
   }
-  h1 {
+  .hero h1 {
     position: absolute;
     top: 20px;
     text-align: center;
@@ -643,7 +643,7 @@ box-shadow: 0 8px 24px rgba(16,24,40,0.08);
     height:500px;
     border-radius: 10px;
   }
-  .contact-hero h2{
+  .contact-hero h1{
     text-align: center;
     opacity: 0.8;
     font-size: 2em;
