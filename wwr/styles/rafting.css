@@ -854,6 +854,12 @@ width: 100%;
 border: none;
 border-radius: 6px;
 }
+.map-frame {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
      /* General Footer */
  /* === Footer === */
   footer {
